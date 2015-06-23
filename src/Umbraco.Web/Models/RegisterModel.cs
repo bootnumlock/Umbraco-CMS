@@ -49,7 +49,7 @@ namespace Umbraco.Web.Models
 
         [Required]
         [RegularExpression(@"[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?",
-            ErrorMessage = "Please enter a valid e-mail address")]
+            ErrorMessage = "Please enter a valid e-mail address - be sure to use all lowercase")]
         public string Email { get; set; }
 
         /// <summary>
